@@ -1,0 +1,18 @@
+{
+  "name": "RgbIrLed",
+  "version": "0.0.1",
+  "keywords": "infrared, ir, remote, esp8266, nec, led",
+  "description": "This library contains no methods, it is simply a mapping of codes for use with IR Remote library to enable an arduino to control some IR RGB LED lamps",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/alistairallan/RgbIrLed"
+  },
+  "authors": [
+    {
+      "name": "Alistair Allan"
+    }
+  ],
+  "frameworks": "*",
+  "platforms": "*"
+}

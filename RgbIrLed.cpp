@@ -12,7 +12,7 @@ RgbIrLed::RgbIrLed(int type)
 {
  //TYPE 0 = APA1616 24 Button Remote
  if(type==0)
- {
+ { 
    Brighter = 0xF700FF;
    Darker = 0xF7807F;
    Off = 0xF740BF;
@@ -22,7 +22,7 @@ RgbIrLed::RgbIrLed(int type)
    Blue = 0xF7609F;
    White = 0xF7E01F;
    Flash = 0xF7D02F;
-   Strobe = 0xF7F00F;
+   Strobe = 0xF7F00F;  
    Fade = 0xF7C837;
    Smooth = 0xF7E817;
    BR1 = 0xF710EF;
